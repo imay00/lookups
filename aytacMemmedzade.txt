@@ -1,0 +1,13 @@
+Product.objects.filter(name__contains="au")
+
+
+Product.objects.filter(name__exact="Mustang1")
+
+
+Brand.objects.filter(name__startswith="a")
+
+
+Brand.objects.filter(name__endswith="o")
+
+
+Product.objects.order_by("price")
